@@ -1,0 +1,95 @@
+{
+  "_args": [
+    [
+      "esdoc-external-ecmascript-plugin@^1.0.0",
+      "/home/sunset/Documents/jirtdan/node_modules/esdoc-standard-plugin"
+    ]
+  ],
+  "_from": "esdoc-external-ecmascript-plugin@>=1.0.0 <2.0.0",
+  "_id": "esdoc-external-ecmascript-plugin@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/esdoc-external-ecmascript-plugin",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/esdoc-external-ecmascript-plugin-1.0.0.tgz_1501392071322_0.9097482014913112"
+  },
+  "_npmUser": {
+    "email": "h13i32maru@gmail.com",
+    "name": "h13i32maru"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {
+    "graceful-fs": "4.2.3",
+    "klaw": "1.3.1"
+  },
+  "_requested": {
+    "name": "esdoc-external-ecmascript-plugin",
+    "raw": "esdoc-external-ecmascript-plugin@^1.0.0",
+    "rawSpec": "^1.0.0",
+    "scope": null,
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/esdoc-standard-plugin"
+  ],
+  "_resolved": "https://registry.npmjs.org/esdoc-external-ecmascript-plugin/-/esdoc-external-ecmascript-plugin-1.0.0.tgz",
+  "_shasum": "78f565d4a0c5185ac63152614dce1fe1a86688db",
+  "_shrinkwrap": null,
+  "_spec": "esdoc-external-ecmascript-plugin@^1.0.0",
+  "_where": "/home/sunset/Documents/jirtdan/node_modules/esdoc-standard-plugin",
+  "author": {
+    "name": "h13i32maru"
+  },
+  "bugs": {
+    "url": "https://github.com/esdoc/esdoc-plugins/issues"
+  },
+  "dependencies": {
+    "fs-extra": "1.0.0"
+  },
+  "description": "A external ECMAScript plugin for ESDoc",
+  "devDependencies": {
+    "esdoc": "latest",
+    "mocha": "2.5.3"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "78f565d4a0c5185ac63152614dce1fe1a86688db",
+    "tarball": "https://registry.npmjs.org/esdoc-external-ecmascript-plugin/-/esdoc-external-ecmascript-plugin-1.0.0.tgz"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "files": [
+    "README.md",
+    "src"
+  ],
+  "homepage": "https://github.com/esdoc/esdoc-plugins",
+  "keywords": [
+    "ecmascript",
+    "esdoc",
+    "external",
+    "plugin"
+  ],
+  "license": "MIT",
+  "main": "src/Plugin.js",
+  "maintainers": [
+    {
+      "name": "h13i32maru",
+      "email": "h13i32maru@gmail.com"
+    }
+  ],
+  "name": "esdoc-external-ecmascript-plugin",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esdoc/esdoc-plugins.git"
+  },
+  "scripts": {
+    "test": "rm -rf ./test/out && mocha --require ./test/init.js $(find test/ -regex '.*.test.js$') -R spec"
+  },
+  "version": "1.0.0"
+}
